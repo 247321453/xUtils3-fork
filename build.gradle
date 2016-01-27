@@ -6,13 +6,21 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.5.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
     }
 }
-
 allprojects {
     repositories {
         jcenter()
     }
+}
+ext {
+    versionCode = 20160127
+    versionName = "3.3.6"
+    siteUrl = 'https://github.com/247321453/xUtils3-plugin'
+    gitUrl = 'https://github.com/247321453/xUtils3-plugin.git'
+    groupName = "org.xutils"
 }
 
 task clean(type: Delete) {
