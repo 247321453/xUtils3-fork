@@ -17,7 +17,7 @@ allprojects {
 }
 ext {
     versionCode = 20160127
-    versionName = "3.3.6"
+    versionName = "3.3.7"
     siteUrl = 'https://github.com/247321453/xUtils3-plugin'
     gitUrl = 'https://github.com/247321453/xUtils3-plugin.git'
     groupName = "org.xutils"
