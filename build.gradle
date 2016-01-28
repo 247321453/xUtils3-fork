@@ -16,11 +16,11 @@ allprojects {
     }
 }
 ext {
-    versionCode = 20160127
-    versionName = "3.3.7"
+    versionCode = 20160128
+    versionName = "3.3.8"
     siteUrl = 'https://github.com/247321453/xUtils3-plugin'
     gitUrl = 'https://github.com/247321453/xUtils3-plugin.git'
-    groupName = "org.xutils"
+    groupName = "com.github.247321453"
 }
 
 task clean(type: Delete) {
