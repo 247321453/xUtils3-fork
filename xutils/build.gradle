@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-def libName = 'xUtils-plugin'
+def libName = 'xUtils3'
 def siteUrl = rootProject.ext.siteUrl
 def gitUrl = rootProject.ext.gitUrl
 group = rootProject.ext.groupName
