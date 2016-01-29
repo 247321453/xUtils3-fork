@@ -18,9 +18,9 @@ allprojects {
 ext {
     versionCode = 20160128
     versionName = "3.3.8"
-    siteUrl = 'https://github.com/247321453/xUtils3-plugin'
-    gitUrl = 'https://github.com/247321453/xUtils3-plugin.git'
-    groupName = "com.github.247321453"
+    siteUrl = 'https://github.com/wyouflf/xUtils3'
+    gitUrl = 'https://github.com/wyouflf/xUtils3.git'
+    groupName = "com.github.247321453.fork"
 }
 
 task clean(type: Delete) {
